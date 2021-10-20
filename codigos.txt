@@ -1,0 +1,135 @@
+O código da estrutura da seção de planos:
+
+    <section class="planos container">
+                <h2 class="planos__titulo">Planos</h2>
+                <ul class="planos__cartoes">
+                    <li class="cartao cartao--start">
+                        <h3 class="cartao__titulo">Start</h3>
+                        <article class="cartao__conteudo">
+                            <p class="cartao__preco"><em>R$ 500</em></p>
+                            <p class="cartao__texto">5 manutenções mensais</p>
+                            <p class="cartao__texto">App SEO</p>
+                            <p class="cartao__texto">1 sistema operacional</p>
+                            <a href="plano.html" class="cartao__botao cartao__botao--start botao">Assinar plano</a>
+                        </article>
+                    </li>
+                    <li class="cartao cartao--ultra">
+                        <h3 class="cartao__titulo">Ultra</h3>
+                        <article class="cartao__conteudo">
+                            <p class="cartao__preco"><em>R$ 1500</em></p>
+                            <p class="cartao__texto">20 manutenções mensais</p>
+                            <p class="cartao__texto">App SEO</p>
+                            <p class="cartao__texto">4 sistemas operacionais</p>
+                            <p class="cartao__texto">24h de atendimento</p>
+                            <a href="" class="cartao__botao cartao__botao--ultra botao">Assinar plano</a>
+                        </article>
+                    </li>
+                    <li class="cartao cartao--mega">
+                        <h3 class="cartao__titulo">Mega</h3>
+                        <p class="cartao__preco"><em>R$ 1000</em></p>
+                        <article class="cartao__conteudo">
+                            <p class="cartao__texto">10 manutenções mensais</p>
+                            <p class="cartao__texto">App SEO</p>
+                            <p class="cartao__texto">2 sistemas operacionais</p>
+                            <a href="" class="cartao__botao cartao__botao--mega botao">Assinar plano</a>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+
+O código da estrutura da seção de contato:
+
+<section class="contato container">
+                <h2 class="contato__titulo">Contato</h2>
+                <p>Entre em contato com a gente</p>
+                <a href="contato.html" class="contato__botao botao">Entre em contato</a>
+            </section>
+
+O código da estilização da seção de contato:
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contato__titulo {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 1.25rem;
+}
+
+.contato__botao {
+    color: var(--cinza-escuro);
+
+    border-color: var(--cinza-escuro);
+
+    margin-top: 1rem;
+}
+
+O código da estilização da seção institucional:
+
+.institucional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--fonte-cinza);
+    text-align: center;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.institucional__titulo {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 2rem;
+}
+
+.institucional__descricao {
+    margin-bottom: 2rem;
+}
+
+.institucional__endereco {
+    font-size: 1.5rem;
+    line-height: normal;
+
+    margin-bottom: 2rem;
+}
+
+.institucional__contato {
+    font-size: 1.2rem;
+    line-height: 1.8;
+
+    margin-top: 2rem;
+}
+
+.institucional__contato-telefone {
+    line-height: normal;
+}
+
+.institucional__contato-email {
+    color: var(--fonte-link);
+    text-decoration: underline;
+    display: block;
+}
+
+.institucional__video {
+    width: 100vw;
+}
